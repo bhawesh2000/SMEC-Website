@@ -1,12 +1,12 @@
 
 import React, { useEffect, useState } from 'react'
 
-import p1 from '../../assets/PartnersImages/bajaj.svg';
-import p2 from '../../assets/PartnersImages/bsnl.svg';
-import p3 from '../../assets/PartnersImages/hero.svg';
-import p4 from '../../assets/PartnersImages/mahindra.svg';
-import p5 from '../../assets/PartnersImages/phonepe.svg';
-import p6 from '../../assets/PartnersImages/tata.svg'
+import p1 from '../../assets/PartnersImages/pirelli.jpg';
+import p2 from '../../assets/PartnersImages/cg.png';
+import p3 from '../../assets/PartnersImages/ceat.avif'
+
+import p4 from '../../assets/PartnersImages/tata.svg';
+
 import { Carousel } from 'react-responsive-carousel';
 
 
@@ -34,7 +34,7 @@ function Partners() {
     const [activeIndex, setActiveIndex] = useState(0);
 
     const partners = [
-        p1,p2,p3,p4,p5,p6
+        p1,p2,p3,p4
     ]
     
 

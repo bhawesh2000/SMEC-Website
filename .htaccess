@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^smec.smecindia.co.in/ [NC]
+RewriteRule ^(.*)$ http://www.smecindia.co.in/$1 [L,R=301]

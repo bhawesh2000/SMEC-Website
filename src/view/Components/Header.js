@@ -7,10 +7,10 @@ function Header() {
     <div className="bg-[#001F4D] p-2 w-full">
     <nav className="flex justify-between items-center ">
       <div className="flex items-center">
-        <img src="/img/SMEC_logo.png" alt="Logo" className="h-14 w-auto  rounded-full  object-contain" />
+        <img src="/img/SMEC_logo.png" alt="Logo" className="h-14 w-auto ml-4 rounded-full  object-contain" />
       </div>
       
-      <div className="flex space-x-4 mr-4">
+      <div className="flex space-x-4 mr-8">
         <NavLink
           to="/"
           className={({ isActive }) =>
